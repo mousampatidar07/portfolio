@@ -102,11 +102,11 @@ body{
 }
 #main-img{
     
-    width: 400px;
+    width: 800px;
    
     position: absolute;
-    bottom: 15%;
-    left: 3%;
+    bottom: 20%;
+ right: 60%;
     z-index: 5;
 }
 .text{
@@ -308,8 +308,10 @@ body{
     color: white;
     padding: 0px 100px 0px 100px;
     box-sizing: border-box;
+    background-color: black;
 }
 .promain{
+    background-color: black;
     width: 100%;
     min-height: calc(100vh - 70px);
     display: flex;
@@ -487,7 +489,9 @@ body{
     justify-content: center;
     gap: 10px;
 }
+
 .conimg{
+    
     display: flex;
     align-items: center;
     justify-content: center;
